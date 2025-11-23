@@ -163,7 +163,7 @@ The tool uses machine learning models trained on comprehensive clinical trial da
 ## File Structure
 
 ```
-NEJM_websites/
+huilab-vfa/
 ├── app.py                      # Main Flask application
 ├── requirements.txt             # Python dependencies
 ├── templates/                  # HTML templates
@@ -218,7 +218,7 @@ This project is licensed under the MIT License - see the [LICENSE](LICENSE) file
 
 ## Contact
 
-For questions, suggestions, or collaborations, please contact [your-email@example.com].
+For questions, suggestions, or collaborations, please contact 184514@shsmu.edu.cn.
 
 ## Contributing
 
