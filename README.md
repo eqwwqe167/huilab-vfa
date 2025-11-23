@@ -73,8 +73,18 @@ The tool evaluates seven different dietary approaches:
    ```
 
 2. Install the required dependencies:
+
+   **Using pip:**
    ```bash
-   pip install -r requirements.txt
+   pip install Flask==2.3.3 scikit-learn==1.3.0 pandas==2.1.0 numpy==1.25.2 joblib==1.3.2 torch
+   ```
+
+   **Using conda:**
+   ```bash
+   conda install flask scikit-learn pandas numpy joblib
+   conda install pytorch pytorch-cuda=11.8 -c pytorch -c nvidia  # For CUDA support
+   # Or for CPU-only:
+   # conda install pytorch cpuonly -c pytorch
    ```
 3. Run the application:
    ```bash
@@ -175,11 +185,15 @@ NEJM_websites/
 
 ## Dependencies
 
+The following Python packages are required to run this application:
 - Flask==2.3.3
 - scikit-learn==1.3.0
 - pandas==2.1.0
 - numpy==1.25.2
 - joblib==1.3.2
+- torch (PyTorch)
+
+You can install these packages using either pip or conda as shown in the Installation section.
 
 ## Citation
 
