@@ -68,30 +68,20 @@ The tool evaluates seven different dietary approaches:
 
 1. Clone this repository:
    ```bash
-   git clone https://github.com/yourusername/NEJM_websites.git
-   cd NEJM_websites
+   git clone https://github.com/eqwwqe167/huilab-vfa.git
+   cd huilab-vfa
    ```
 
 2. Install the required dependencies:
    ```bash
    pip install -r requirements.txt
    ```
-
-3. Download the pre-trained models:
-   ```bash
-   # Task 1 model
-   wget https://example.com/task1_model.pkl -O task1/best_model.pkl
-   
-   # Task 2 model
-   wget https://example.com/task2_model.pkl -O task2/best_model_task2.pkl
-   ```
-
-4. Run the application:
+3. Run the application:
    ```bash
    python app.py
    ```
 
-5. Open your browser and navigate to `http://localhost:5000`
+4. Open your browser and navigate to `http://localhost:5000`
 
 ## Usage
 
@@ -163,7 +153,7 @@ The tool uses machine learning models trained on comprehensive clinical trial da
 ## File Structure
 
 ```
-huilab-vfa/
+NEJM_websites/
 ├── app.py                      # Main Flask application
 ├── requirements.txt             # Python dependencies
 ├── templates/                  # HTML templates
@@ -174,8 +164,7 @@ huilab-vfa/
 │   └── result_T2.html         # Results page for Task 2
 ├── static/                     # Static assets
 │   ├── css/                   # Stylesheets
-│   ├── js/                    # JavaScript files
-│   └── img/                   # Images
+│   └── js/                    # JavaScript files
 ├── task1/                      # Task 1 prediction module
 │   ├── best_model.pkl         # Pre-trained model for Task 1
 │   └── infer_from_pkl.py      # Prediction script
@@ -218,7 +207,7 @@ This project is licensed under the MIT License - see the [LICENSE](LICENSE) file
 
 ## Contact
 
-For questions, suggestions, or collaborations, please contact 184514@shsmu.edu.cn.
+For questions, suggestions, or collaborations, please contact [184514@shsmu.edu.cn].
 
 ## Contributing
 
