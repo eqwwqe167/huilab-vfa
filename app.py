@@ -49,7 +49,6 @@ def predict():
             # 从表单获取所有必要的输入数据
             try:
                 # 准备基础输入数据字典（不包含Group字段）
-                # 获取原始Metcar_RQ值并进行转换
                 raw_metcar_rq = float(request.form['metcar_rq'])
                 converted_metcar_rq = raw_metcar_rq
                 
@@ -330,3 +329,4 @@ def predict():
 if __name__ == '__main__':
 
     app.run(debug=True)
+
