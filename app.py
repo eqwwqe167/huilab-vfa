@@ -51,7 +51,7 @@ def predict():
                 # 准备基础输入数据字典（不包含Group字段）
                 # 获取原始Metcar_RQ值并进行转换
                 raw_metcar_rq = float(request.form['metcar_rq'])
-                converted_metcar_rq = 0.01413 + 0.78413 * raw_metcar_rq
+                converted_metcar_rq = raw_metcar_rq
                 
                 # 将用户输入的百分比转换为小数（用户输入70%，后台需要0.7）
                 tbw_ffm_input = float(request.form['tbw_ffm'])
@@ -328,4 +328,5 @@ def predict():
         return jsonify({'error': f'Server error: {str(e)}'}), 500
 
 if __name__ == '__main__':
+
     app.run(debug=True)
