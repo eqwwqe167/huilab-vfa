@@ -49,8 +49,7 @@ def predict():
             # 从表单获取所有必要的输入数据
             try:
                 # 准备基础输入数据字典（不包含Group字段）
-                raw_metcar_rq = float(request.form['metcar_rq'])
-                converted_metcar_rq = raw_metcar_rq
+                converted_metcar_rq = float(request.form['metcar_rq'])
                 
                 # 将用户输入的百分比转换为小数（用户输入70%，后台需要0.7）
                 tbw_ffm_input = float(request.form['tbw_ffm'])
@@ -329,4 +328,5 @@ def predict():
 if __name__ == '__main__':
 
     app.run(debug=True)
+
 
