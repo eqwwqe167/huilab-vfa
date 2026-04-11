@@ -109,7 +109,7 @@ The tool evaluates seven different dietary approaches:
 ### Task 2: Early Response Prediction
 
 1. Navigate to the "Prediction" page
-2. Select "Task 2: Predict VFA change with current diet"
+2. Select "Task 2: Early Response Prediction"
 3. Fill in the same set of personal information
 4. Submit the form to see predicted VFA changes if continuing current dietary habits
 
