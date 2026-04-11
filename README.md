@@ -95,7 +95,7 @@ The tool evaluates seven different dietary approaches:
 
 ## Usage
 
-### Task 1: Optimal Dietary Regimen Prediction
+### Task 1: Dietary Group Recommendation
 
 1. Navigate to the "Prediction" page
 2. Select "Task 1: Predict optimal dietary regimen"
@@ -106,7 +106,7 @@ The tool evaluates seven different dietary approaches:
    - Lifestyle factors
 4. Submit the form to receive personalized dietary recommendations
 
-### Task 2: Current Diet Continuation Prediction
+### Task 2: Early Response Prediction
 
 1. Navigate to the "Prediction" page
 2. Select "Task 2: Predict VFA change with current diet"
