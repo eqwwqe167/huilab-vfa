@@ -98,7 +98,7 @@ The tool evaluates seven different dietary approaches:
 ### Task 1: Dietary Group Recommendation
 
 1. Navigate to the "Prediction" page
-2. Select "Task 1: Predict optimal dietary regimen"
+2. Select "Task 1: Dietary Group Recommendation"
 3. Fill in the required personal information:
    - Demographic factors (Age, Sex, Birth Weight)
    - Body composition measurements
